@@ -3,6 +3,7 @@ import './App.css';
 import store from './features/store';
 import CakeContainer from './components/CakeContainer/CakeContainer';
 import MilkContainer from './components/MilkContainer/MilkContainer';
+import UserList from './components/UserList/UserList';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <CakeContainer />
       <hr />
       <MilkContainer />
+      <hr />
+      <UserList />
     </Provider>
   );
 }
